@@ -48,6 +48,23 @@
 | [3.4.2](#342-2020-06-04)                                                                             | June 2020      | `"`          |
 | [3.4.1](#341-2020-04-17)                                                                             | April 2020     | `^7.1.2`     |
 
+
+## [6.6.7](https://github.com/socketio/socket.io/compare/engine.io@6.6.6...engine.io@6.6.7) (2026-04-27)
+
+
+### Bug Fixes
+
+* close HTTP requests with invalid content type ([fc11285](https://github.com/socketio/socket.io/commit/fc11285e14964c2132d122164bf130c355f60671))
+* handle invalid packets when upgrading to WebTransport ([1fa1f46](https://github.com/socketio/socket.io/commit/1fa1f46cd420ac5b57bb4c04c959b58f3c79158c))
+* prevent WebTransport connections when a middleware is registered ([d1f5aa9](https://github.com/socketio/socket.io/commit/d1f5aa93722a7f1ed729b96f771daf92a3dfdaf7))
+
+
+### Dependencies
+
+- [`ws@~8.18.3`](https://github.com/websockets/ws/releases/tag/8.18.3) (no change)
+
+
+
 ## [6.6.6](https://github.com/socketio/socket.io/compare/engine.io@6.6.5...engine.io@6.6.6) (2026-03-10)
 
 
